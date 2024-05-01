@@ -4,7 +4,7 @@ function Education({ SchoolImg, SchoolName, Date, description }) {
   return (
     <div className="card" style={{ maxWidth: "100ref", margin: "auto" }}>
       <div className="row g-0">
-        <div className="col-md-8">
+        <div className="col-8">
           <div className="card-body">
               <h5 className="text-body-secondary">{Date}</h5>
             <h5 className="card-title">{SchoolName}</h5>
@@ -13,10 +13,10 @@ function Education({ SchoolImg, SchoolName, Date, description }) {
             </p>
           </div>
         </div>
-        <div className="col-md-4 d-flex align-items-center justify-content-center">
+        <div className="col-4 d-flex align-items-center justify-content-center">
           <img
             src={SchoolImg}
-            className="mw-50 img-fluid w-50 p-2 rounded-circle" style={{ maxWidth: '150px' }}
+            className="img-fluid w-50 p-2  rounded-circle" style={{ maxWidth: '100px' }}
             alt="..."
           />
         </div>

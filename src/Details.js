@@ -9,6 +9,20 @@ import fstFes from "./images/univ/fstFes.png";
 import univH2C from "./images/univ/univH2C.png";
 import lyceLogo from "./images/univ/lyceeLogo.png";
 
+import html from "./images/technologies/html.png";
+import css from "./images/technologies/css.png";
+import figma from "./images/technologies/figma.png";
+import git from "./images/technologies/git.png";
+import github from "./images/technologies/github.png";
+import js from "./images/technologies/js.png";
+import react from "./images/technologies/react.png";
+import vscode from "./images/technologies/vscode.png";
+import c from "./images/technologies/c.png";
+import cpp from "./images/technologies/c++.png";
+import ubuntu from "./images/technologies/ubuntu.png";
+import windows from "./images/technologies/windows.png";
+import mysql from "./images/technologies/mysql.png";
+
 export const personalDetails = {
   name: "Abderrahim Elmoutaouakil",
   tagline: "I'm a software engineer at meta ;)",
@@ -26,7 +40,7 @@ export const projectDetails = [
     title: "mediaLab",
     image: medialab,
     description: `The Algerian Fencing Federation website is a dynamic and engaging platform created as part of a competition to showcase the sport of fencing in Algeria.`,
-    techstack: "Bootstrap, Expo, Redux Toolkit, Sanity.",
+    technologies: "Bootstrap, Expo, Redux Toolkit, Sanity.",
     previewLink: "https://google.com",
     githubLink: "https://github.com/AbderrahimeEl/medialab",
   },
@@ -34,7 +48,7 @@ export const projectDetails = [
     title: "Snoopy Magic show",
     image: Snoopy,
     description: `The Algerian Fencing Federation website is a dynamic and engaging platform created as part of a competition to showcase the sport of fencing in Algeria.`,
-    techstack: "React Native, Expo, Redux Toolkit, Sanity.",
+    technologies: "React Native, Expo, Redux Toolkit, Sanity.",
     previewLink: "https://google.com",
     githubLink: "hhttps://github.com/youssef-faik/snoopy_game",
   },
@@ -42,7 +56,7 @@ export const projectDetails = [
     title: "Bondi",
     image: bondi,
     description: `The Algerian Fencing Federation website is a dynamic and engaging platform created as part of a competition to showcase the sport of fencing in Algeria.`,
-    techstack: "React Native, Expo, Redux Toolkit, Sanity.",
+    technologies: "React Native, Expo, Redux Toolkit, Sanity.",
     previewLink: "https://google.com",
     githubLink: "https://github.com/AbderrahimeEl/Bondi-Bootstrap",
   },
@@ -50,7 +64,7 @@ export const projectDetails = [
     title: "Sorting Algo comparing",
     image: sort,
     description: `The Algerian Fencing Federation website is a dynamic and engaging platform created as part of a competition to showcase the sport of fencing in Algeria.`,
-    techstack: "React Native, Expo, Redux Toolkit, Sanity.",
+    technologies: "React Native, Expo, Redux Toolkit, Sanity.",
     previewLink: "https://google.com",
     githubLink: "https://github.com/AbderrahimeEl/Algo-tri",
   },
@@ -58,7 +72,7 @@ export const projectDetails = [
     title: "Tetris Game",
     image: tetris,
     description: `The Algerian Fencing Federation website is a dynamic and engaging platform created as part of a competition to showcase the sport of fencing in Algeria.`,
-    techstack: "React Native, Expo, Redux Toolkit, Sanity.",
+    technologies: "React Native, Expo, Redux Toolkit, Sanity.",
     previewLink: "https://google.com",
     githubLink: "https://github.com/AbderrahimeEl/Tetris",
   },
@@ -66,7 +80,7 @@ export const projectDetails = [
     title: "Sticker Finder",
     image: sticker,
     description: `The Algerian Fencing Federation website is a dynamic and engaging platform created as part of a competition to showcase the sport of fencing in Algeria.`,
-    techstack: "React Native, Expo, Redux Toolkit, Sanity.",
+    technologies: "React Native, Expo, Redux Toolkit, Sanity.",
     previewLink: "https://google.com",
     githubLink: "https://github.com/AbderrahimeEl/Sticker-Finder",
   },
@@ -93,3 +107,19 @@ export const educationInfo = [
       "Engineer’s Degree in  Software and Distributed IT Systems Engineering",
   },
 ];
+
+export const skills = {
+  html: html,
+  css: css,
+  js: js,
+  react: react,
+  vscode: vscode,
+  git: git,
+  github: github,
+  cpp: cpp,
+  figma: figma,
+  c: c,
+  mysql: mysql,
+  ubuntu: ubuntu,
+  windows: windows,
+};
