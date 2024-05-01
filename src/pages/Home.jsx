@@ -6,9 +6,9 @@ function Home() {
   
   return (
     <main className="container-md mx-auto section-md">
-      <div className="row mt-5 align-items-center">
-        <div className="ms-5 mt-5 ms-lg-0 col-md-6 mt-5">
-          <h1 className="text-2xl text-dark-heading dark-text-heading md-text-4xl xl-text-5xl xl-leading-tight font-weight-bold">
+      <div className="row align-items-center justify-content-center " style={{height: '70vh'}}>
+        <div className="col-auto mt-5 ms-lg-0 col-md-6">
+          <h1 className="text-2xl text-dark-heading dark-text-heading md-text-4xl xl-text-5xl xl-leading-tight font-weight-bold text-muted">
             Hi,👋<br></br>My Name is<br></br>
           </h1>
           <h1>
@@ -18,8 +18,8 @@ function Home() {
             {tagline}
           </h2>
         </div>
-        <div className="col-md-6 mt-5 mt-md-0 text-center">
-          <img className="w-100 mt-5 w-md-75" src={img} alt="Pavan MG" />
+        <div className="col-auto col-md-6 text-center">
+          <img className="w-lg-100 w-50 mt-5 rounded-circle" src={img} alt="Pavan MG" />
         </div>
       </div>
     </main>
