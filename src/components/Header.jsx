@@ -13,8 +13,8 @@ function Header() {
     setIsOpen(!isOpen);
   };
   return (
-    <div >
-      <nav className="navbar navbar-expand-lg sticky-top" >
+    <div>
+      <nav className="navbar navbar-expand-lg sticky-top">
         <div className="ms-4 container-fluid ">
           <button
             data-mdb-collapse-init
@@ -31,27 +31,38 @@ function Header() {
             className={`collapse navbar-collapse ${isOpen ? "show" : ""}`}
             id="navbarSupportedContent"
           >
-            <NavLink to="/" className="navbar-brand mt-2 d-none d-lg-flex me-5 mt-lg-0">
+            <NavLink
+              to="/"
+              className="navbar-brand mt-2 d-none d-lg-flex me-5 mt-lg-0"
+            >
               <img src={logo} height="30" alt="Lo" loading="lazy" />
             </NavLink>
             <ul className="navbar-nav me-auto mb-2 mb-lg-0 ">
               <li className="nav-item">
-                <NavLink to="/" className="nav-link fs-4 ms-3 text-light " onClick={toggleClass}>
+                <NavLink
+                  to="/"
+                  className="nav-link fs-4 ms-3 text-light "
+                  onClick={toggleClass}
+                >
                   Home
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink to="/about" className="nav-link text-light ms-3 " onClick={toggleClass}>
-                <div className="fs-4">About</div>
+                <NavLink
+                  to="/about"
+                  className="nav-link text-light ms-3 "
+                  onClick={toggleClass}
+                >
+                  <div className="fs-4">About</div>
                 </NavLink>
               </li>
               <li className="nav-item">
                 <NavLink
-                  to="/technologies"
+                  to="/skills"
                   className="nav-link fs-4  text-light ms-3 "
                   onClick={toggleClass}
                 >
-                  Technologies
+                  skills
                 </NavLink>
               </li>
               <li className="nav-item">
