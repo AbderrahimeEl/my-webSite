@@ -18,6 +18,11 @@ function AboutPage() {
 this is how you can manipulate adding data into the jsx file
 
 - so usefull
+
+```bash
+# js object
+# you can make a lot of object in one external file an then use them betwen your componenets
+=======
 ```bash
 # js object
 # you can make a lot of object in one external file an then use them betwen your componenets 
@@ -43,4 +48,37 @@ export default function Profile() {
     </>
   );
 }
+```
+
+## useState
+
+useState is a React Hook that allows functional components to manage state.<br>
+It enables you to add state to your components without converting them into class components.
+
+- import
+
+```bash
+import React, { useState } from 'react';
+```
+
+- declaration
+
+```bash
+const [count, setCount] = useState(0);
+
+```
+
+- Update
+
+```bash
+return (
+  <div>
+    <p>You clicked {count} times</p>
+    <button onClick={() => setCount(count + 1)}>
+      Click me
+    </button>
+  </div>
+);
+
+
 ```
