@@ -22,6 +22,10 @@ this is how you can manipulate adding data into the jsx file
 ```bash
 # js object
 # you can make a lot of object in one external file an then use them betwen your componenets
+=======
+```bash
+# js object
+# you can make a lot of object in one external file an then use them betwen your componenets 
 const user = {
   name: 'Hedy Lamarr',
   imageUrl: 'https://i.imgur.com/yXOvdOSs.jpg',
