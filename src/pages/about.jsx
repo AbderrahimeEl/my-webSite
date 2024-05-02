@@ -8,7 +8,7 @@ import Skills from "../components/Skills";
 
 function About() {
   return (
-    <main className="container mx-auto pt-5">
+    <main className="container mx-auto pt-1">
       <section className="mt-5">
         <h2 className="text-muted text-center mb-5">About me</h2>
       </section>

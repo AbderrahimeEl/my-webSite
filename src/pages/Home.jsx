@@ -1,6 +1,6 @@
 import React from "react";
 import { personalDetails } from "../Details";
-import "../Home.css"; // Import CSS file for animations
+// import "../Home.css"; // Import CSS file for animations
 
 function Home() {
   const { name, tagline, img } = personalDetails;
