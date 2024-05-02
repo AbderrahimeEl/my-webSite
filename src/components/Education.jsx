@@ -16,7 +16,7 @@ function Education({ SchoolImg, SchoolName, Date, description }) {
         <div className="col-4 d-flex align-items-center justify-content-center">
           <img
             src={SchoolImg}
-            className="img-fluid w-50 p-2  rounded-circle" style={{ maxWidth: '100px' }}
+            className="img-fluid w-100 p-2  rounded-circle" style={{ maxWidth: '100px' }}
             alt="..."
           />
         </div>

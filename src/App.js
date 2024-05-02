@@ -5,7 +5,7 @@ import Footer from "./components/Footer";
 import Projects from "./pages/Projects";
 import About from "./pages/about";
 import Home from "./pages/Home";
-import Skills from "./pages/Skills";
+import Contact from "./pages/Contact";
 function App() {
   return (
     <div >
@@ -21,8 +21,8 @@ function App() {
         <Route exact path="/About">
           <About />
         </Route>
-        <Route exact path="/skills">
-          <Skills />
+        <Route exact path="/contact">
+          <Contact />
         </Route>
       </Switch>
       <div className="mb-5"></div>

@@ -58,15 +58,6 @@ function Header() {
               </li>
               <li className="nav-item">
                 <NavLink
-                  to="/skills"
-                  className="nav-link fs-4  text-light ms-3 "
-                  onClick={toggleClass}
-                >
-                  skills
-                </NavLink>
-              </li>
-              <li className="nav-item">
-                <NavLink
                   to="/Projects"
                   className="nav-link fs-4 text-light ms-3 "
                   onClick={toggleClass}
@@ -81,6 +72,15 @@ function Header() {
                   onClick={toggleClass}
                 >
                   Contact
+                </NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink
+                  to="/resume"
+                  className="nav-link fs-4  text-light ms-3 "
+                  onClick={toggleClass}
+                >
+                  Resume
                 </NavLink>
               </li>
             </ul>
@@ -98,5 +98,4 @@ function Header() {
     </div>
   );
 }
-
 export default Header;
