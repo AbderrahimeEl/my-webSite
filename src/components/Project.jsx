@@ -10,14 +10,14 @@ function Project({
   githubLink,
 }) {
   return (
-    <article className="card p-2 m-1 rounded-xl mt-10 shadow-xl">
+    <article className="card p-2 m-1  rounded-xl mt-10 shadow-xl">
       <img className="card-img-top" src={image} alt="" loading="lazy" />
       <div className="card-body">
-        <h3 className="card-title font-semibold text-lg ">{title}</h3>
-        <p className="card-text pt-4 font-light">{description}</p>
-        <h4 className="card-subtitle text-muted font-medium">
-          Tech Stack: <span className="font-light">{technologies}</span>
-        </h4>
+        <h4 className="card-title font-semibold text-lg "  >{title}</h4>
+        <p className="card-text pt-4 fs-8 font-light" style={{ height: "10vh" }}>{description}</p>
+        <h5 className="card-subtitle text-muted ">
+        <span className="text-primary"> Tech Stack:</span><br /> <span className="fs-5">{technologies}</span>
+        </h5>
         <div className="d-flex justify-content-between align-items-center mt-5">
           <div className="d-flex align-items-center">
             <a href={githubLink} className="ms-3">
