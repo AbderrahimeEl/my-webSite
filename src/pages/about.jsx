@@ -10,7 +10,7 @@ function About() {
         <h2 className="text-muted text-center mb-5">About me</h2>
       </section>
       <div className="row">
-        <div className="col-md-6">
+        <div className="col-lg-6">
           <div>
             <p className="fs-5 ms-1 text-muted">
               Hi Everyone, I am{" "}
@@ -37,9 +37,9 @@ function About() {
             </ul>
           </div>
         </div>
-        <div className="col-md-6 d-none d-md-flex justify-content-center text-center">
+        <div className="col-lg-6 d-none d-lg-flex justify-content-center text-center">
           <img
-            className="w-lg-100 w-50  rounded-circle"
+            className="w-lg-100 w-50"
             src={Personwithlap.personwithlap}
             alt=".."
           />
