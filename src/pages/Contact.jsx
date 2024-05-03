@@ -12,6 +12,7 @@ function Contact() {
         <a href={`mailto:${email}`}>{email}</a>
       </h3>
       <span className="text-xl display-3 d-block my-3 text-muted">or</span>
+
       <h3 className="fs-3 mb-5">
         <a href={`tel:${phone}`}>{phone}</a>
       </h3>
