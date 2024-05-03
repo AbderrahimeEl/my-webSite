@@ -43,7 +43,7 @@ export const projectDetails = [
   {
     title: "mediaLab",
     image: medialab,
-    description: `hospitals website design for  access to essential information.`,
+    description: `hospitals website design.`,
     technologies: "Html, bootstrap, js.",
     previewLink: "https://google.com",
     githubLink: "https://github.com/AbderrahimeEl/medialab",
@@ -51,39 +51,39 @@ export const projectDetails = [
   {
     title: "Bondi",
     image: bondi,
-    description: ` website designe to provide seamless access to essential services and information.`,
+    description: ` website designe `,
     technologies: "Html, css, js, bootstrap",
     previewLink: "https://google.com",
     githubLink: "https://github.com/AbderrahimeEl/Bondi-Bootstrap",
   },
   {
+    title: "My website",
+    image: mywebsite,
+    description: `my personal website <br>`,
+    technologies: "React.js, Bootstrap,",
+    previewLink: "https://google.com",
+    githubLink: "https://github.com/AbderrahimeEl/my-webSite",
+  },
+  {
     title: "Sorting Algo comparing",
     image: sort,
     description: `Selecting the Right Sorting Algorithm: Optimizing Computational Efficiency`,
-    technologies: "C, ",
+    technologies: "C, gnuplot",
     previewLink: "https://google.com",
     githubLink: "https://github.com/AbderrahimeEl/Algo-tri",
   },
   {
     title: "Tetris Game",
     image: tetris,
-    description: `puzzle game where colored pieces must be aligned to form repeating patterns.`,
+    description: `Puzzle game with manipulation of pieces to create patterns.`,
     technologies: " C++, OOP, data Structures, Raylib",
     previewLink: "https://google.com",
     githubLink: "https://github.com/AbderrahimeEl/Tetris",
   },
   {
-    title: "My website",
-    image: mywebsite,
-    description: `my personal website`,
-    technologies: "React.js, Bootstrap, , Sanity.",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com/AbderrahimeEl/my-webSite",
-  },
-  {
     title: "Snoopy Magic show",
     image: Snoopy,
-    description: `console game where you control Snoopy to collect birds while navigating through obstacles.`,
+    description: `console game where you control Snoopy to collec births`,
     technologies: "C",
     previewLink: "https://google.com",
     githubLink: "https://github.com/AbderrahimeEl/snoopyGame",
@@ -92,10 +92,11 @@ export const projectDetails = [
 
 export const educationInfo = [
   {
-    SchoolImg: lyceLogo,
-    SchoolName: "Mohammed 5 High School",
-    Date: "2020 - 2021",
-    description: "Baccalaureate in Physical Sciences ",
+    SchoolImg: univH2C,
+    SchoolName: "higher normal school of technical education",
+    Date: "2023 - 2026",
+    description:
+      "Engineer’s Degree in  Software and Distributed IT Systems Engineering",
   },
   {
     SchoolImg: fstFes,
@@ -104,56 +105,54 @@ export const educationInfo = [
     description: `diploma of scientific and technical university studies mathematics, informatique , physics `,
   },
   {
-    SchoolImg: univH2C,
-    SchoolName: "higher normal school of technical education",
-    Date: "2023 - 2026",
-    description:
-      "Engineer’s Degree in  Software and Distributed IT Systems Engineering",
+    SchoolImg: lyceLogo,
+    SchoolName: "Mohammed 5 High School",
+    Date: "2020 - 2021",
+    description: "Baccalaureate in Physical Sciences ",
   },
 ];
 export const certificationsInfo = [
   {
-    certifTitle: "Programming with JavaScript",
+    certifTitle: "React Basics",
     companyName: "meta",
     companyLogo: meta,
-    dateReseved: "Issued on November 28, 2023",
-    description:
-      "JavaScript is the programming language that powers the modern web.",
-    ceriflink: "https://coursera.org/share/5b4e597be96f54ef65e074e2b6c2f61e",
-  },
-  {
-    certifTitle: "English for IT 1",
-    companyName: "CISCO",
-    companyLogo: cisco,
-    dateReseved: "Issued on December 25, 2023",
-    description:
-      "Technical Communication",
-    ceriflink: "https://www.credly.com/badges/4a366bf0-f24c-4901-bfa2-9e2ec3072caf/linked_in_profile",
-  },
-  {
-    certifTitle: "Version Control",
-    companyName: "meta",
-    companyLogo: meta,
-    dateReseved: "Issued on January 13, 2024",
-    description:"Learn how modern software developers collaborate across the world .",
-    ceriflink: "https://coursera.org/share/f7e3fccf34375a1e462dcc450ee4932c",
+    dateReseved: "Issued on  April 30, 2024",
+    description: "",
+    ceriflink: "https://coursera.org/share/a655eac6beeca002f34f224573b74ec2",
   },
   {
     certifTitle: "Networking Essentials",
     companyName: "Issued by cisco",
     companyLogo: cisco,
     dateReseved: "Issued on january 05, 2024",
-    description:"",
-    ceriflink: "https://drive.google.com/file/d/1o5IrNR3tbZKakhr8ilUxI6t5fnp_NROh/view?usp=drive_link",
+    description: "",
+    ceriflink:
+      "https://drive.google.com/file/d/1o5IrNR3tbZKakhr8ilUxI6t5fnp_NROh/view?usp=drive_link",
   },
   {
-    certifTitle: "React Basics",
+    certifTitle: "Version Control",
     companyName: "meta",
     companyLogo: meta,
-    dateReseved: "Issued on  April 30, 2024",
-    description:
-      "JavaScript is the programming language that powers the modern web.",
-    ceriflink: "https://coursera.org/share/a655eac6beeca002f34f224573b74ec2",
+    dateReseved: "Issued on January 13, 2024",
+    description: "",
+    ceriflink: "https://coursera.org/share/f7e3fccf34375a1e462dcc450ee4932c",
+  },
+  {
+    certifTitle: "English for IT 1",
+    companyName: "CISCO",
+    companyLogo: cisco,
+    dateReseved: "Issued on December 25, 2023",
+    description: "",
+    ceriflink:
+      "https://www.credly.com/badges/4a366bf0-f24c-4901-bfa2-9e2ec3072caf/linked_in_profile",
+  },
+  {
+    certifTitle: "Programming with JavaScript",
+    companyName: "meta",
+    companyLogo: meta,
+    dateReseved: "Issued on November 28, 2023",
+    description: "",
+    ceriflink: "https://coursera.org/share/5b4e597be96f54ef65e074e2b6c2f61e",
   },
 ];
 

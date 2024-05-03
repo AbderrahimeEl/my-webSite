@@ -25,7 +25,7 @@ function Certification({
             <p className="card-text">{description}</p>
             <a
               href={certifLink}
-              className="btn btn-primary"
+              className="btn btn-primary btn-sm"
               target="_blank"
               rel="noopener noreferrer"
             >
