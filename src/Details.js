@@ -78,7 +78,7 @@ export const projectDetails = [
     description: `my personal website`,
     technologies: "React.js, Bootstrap, , Sanity.",
     previewLink: "https://google.com",
-    githubLink: "https://github.com/AbderrahimeEl/Sticker-Finder",
+    githubLink: "https://github.com/AbderrahimeEl/my-webSite",
   },
   {
     title: "Snoopy Magic show",
@@ -178,6 +178,6 @@ export const Personwithlap = {
 };
 
 export const contactDetails = {
-  email: "elabderrahim1@gmail.com",
+  email: "elabderrahim012@gmail.com",
   phone: "+212 654962965",
 };
