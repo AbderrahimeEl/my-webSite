@@ -7,8 +7,6 @@ function Footer() {
           <p className="text-xs text-dark">
             Created by{" "}
             <span className="font-weight-bold">Abderrahim Elmoutaouakil</span>{" "}
-            with <span className="text-gradient font-weight-bold">Love</span> &{" "}
-            <span className="text-gradient font-weight-bold">Fun</span>
           </p>
         </div>
       </div>

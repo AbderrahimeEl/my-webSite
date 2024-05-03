@@ -41,7 +41,7 @@ function Skills() {
 }
 function SkillItem({ imgSrc, title }) {
   return (
-    <div className="col-auto text-center ms-3 me-3">
+    <div className="col-auto text-center ms-1 me-1">
       <div style={{ width: "70px", height: "70px" }}>
         <img className="w-100 h-100" src={imgSrc} title={title} alt={title} />
       </div>

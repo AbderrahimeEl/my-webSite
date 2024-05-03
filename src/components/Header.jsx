@@ -8,7 +8,7 @@ import bars from "../images/bars-solid.svg";
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
-  const { linkedin, github } = socialMediaUrl;
+  const { linkdein, github } = socialMediaUrl;
   const toggleClass = () => {
     setIsOpen(!isOpen);
   };
@@ -86,7 +86,7 @@ function Header() {
             </ul>
           </div>
           <div className="d-flex me-4 align-items-center">
-            <a href={linkedin} className="me-3">
+            <a href={linkdein} className="me-3">
               <img src={linkedinL} height="30" alt="Lo" loading="lazy" />
             </a>
             <a href={github} className="ms-3">
